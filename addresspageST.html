@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>address</title>
+    <link rel="stylesheet" href="colorap.css">
+</head>
+<body>
+    <!-- header -->
+<div class="navbar">
+	<div class="container">
+		<div class="img-col">
+			<img src="logo.png" style="height: 80px;">
+		</div>
+		<!-- search -->
+		<div class="search-container">
+			<form action="/action_page.php">
+			  <input type="text" placeholder="Search.." name="search" style="background-color: rgb(255, 255, 255);">
+			  <button type="submit">Submit</button>
+			</form>
+		</div>
+		<div class="img-sec">
+			<img src="Person.png">
+		</div>
+	</div>
+</div>
+
+<!-- sidenav-->
+<div id="sidebar">
+	<div class="toggle-btn" onclick="show()">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<ul>
+        <li><a href="homepage.html">หน้าหลัก</a></li>
+        <li><a href="">งานของฉัน</a></li>
+        <li><a href="chooseform.html">สร้างโพสต์</a></li>
+        <li><a href="">โปรไฟล์</a></li>
+        <li><a href="">แชท</a></li>
+        <li><a href="">การแจ้งเตือน</a></li>
+	</ul>
+</div>
+
+
+<!-- maincontent -->
+    <div id="firstbox">
+        <div id="AddressInfo">
+            <br>
+            <label id="Infoma">บ้านเลขที่</label>
+            <br>
+            <input type="text" id="box" name="barnlektee" > 
+            <br>
+            <label id="Infoma">ตำบล</label>
+            <br>
+            <input type="text" id="box" name="barnlektee" > 
+            <br>
+            <label id="Infoma">อำเภอ</label>
+            <br>
+            <input type="text" id="box" name="barnlektee" > 
+            <br>
+            <label id="Infoma">จังหวัด</label>
+            <br>
+            <input type="text" id="box" name="barnlektee" >             
+        </div>
+        <div id="map">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=University of Phayao&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://embedgooglemap.2yu.co/">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+        </div>
+    </div>
+    <div id="fourthbox">
+        <button id="submit" onclick="document.location='chooseform.html'">
+            <img id="check-logo" src="checkmark.png">
+        </button>
+    </div>
+    
+    
+        <!-- scrip -->
+        <script src="test.js"></script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+body{
+    background-color: #2E2E50;
+}
+
+#uploadbox{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 305px;
+    margin-top: 70px; 
+}
+
+#upload{
+    width: 1020px;
+    height: 275px;
+    border: black dashed 1px;
+}
+
+.photo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#upload-text{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+#firstbox{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+    margin-top: 23px;
+}
+
+#headandinfo{
+    width: 1020px;
+    height: 275px;
+    background-color: white;
+    display: block;
+}
+
+#heading{
+    margin: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#infomation{
+    margin-left: 20px;
+    font-size: 15px;
+    width: 70%;
+    height: 50%;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#secondbox{
+    display: flex;
+	height: auto;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+#address{
+    width: 302px;
+    height: 108px;
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+#adrress-text{
+    font-size: 30px;
+    opacity: 50%;
+}
+
+#type{
+    width: 703px;
+    height: 108px;
+    background-color: white;
+    display: block;
+    margin-left: 15px;
+}
+
+#type-text{
+    font-size: 30px;
+    opacity: 50%;
+    margin-left: 50px;
+    width: auto;
+    float: left;
+}
+
+#job-type{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 23%;
+    opacity: 50%;
+}
+
+#thirdbox{
+    display: flex;
+	height: auto;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+#aboutmoney{
+    width: 1020px;
+    height: 230px;
+    background-color: white;
+    
+}
+
+#salary{
+    margin: 100px;
+    font-size: 30px;
+    opacity: 50%;
+}
+
+#box{
+    margin-left: 30px;
+    font-size: 30px;
+    width: 100px;
+    text-align: right;
+}
+
+#moneyrate{
+    font-size: 30px;
+    margin-left: 23%;
+    opacity: 50%;
+}
+
+#fourthbox{
+    display: flex;
+	height: auto;
+    margin-top: 23px;
+}
+
+#submit{
+    width: 100px;
+    height: 100px;
+    background-color: #5A75D6;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 #000000;
+    
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+
+}
+
+#check-logo{
+    width: 50px;
+    margin: auto;
+}
+
+div {
+    border-radius: 10px;
+    border: none;
+}
+
+/* -----------------------------------edit----------------------------------- */
+/* top box */
+.navbar {
+    overflow: hidden;
+    background-color: #201A31;
+  
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-sec {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px; /* adjust as needed */
+    margin-right: 20px; /* adjust as needed */
+  }
+  
+  .img-sec img {
+    border-radius: 50%;
+    height: 50px;
+  }
+  /* -----------------------------------------search------------------------------------------------------ */
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #b3b3b3;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #8a8a8a;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .search-container {
+      float: none;
+    }
+    input[type=text], .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------------------------------- */
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #sidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    left: -300px;
+    transition: .4s;
+  }
+  
+  #sidebar ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 26px 24px;
+  }
+
+  #sidebar ul li a{
+    color: #fff;
+  }
+  
+  #sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+  }
+  
+  .toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #dedede;
+    display: block;
+    margin-top: 4px;
+  }
+  
+  #sidebar.active {
+    left: 0;
+  }
